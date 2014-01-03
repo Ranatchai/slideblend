@@ -1,4 +1,4 @@
-#Slideblend Node.js Framework
+#Node.js Scalable Framework
 
 ##Don't Know Node.js?
   * start here: http://stackoverflow.com/questions/1884724/what-is-node-js    
