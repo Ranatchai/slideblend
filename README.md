@@ -130,7 +130,7 @@ http://stackoverflow.com/a/16512303
    * http://www.slideshare.net/lennymarkus/node-js-at-paypal
    * http://www.slideshare.net/billwscott/kicking-up-the-dust-with-node-js
    * http://www.slideshare.net/billwscott/clash-of-the-titans-releasing-the-kraken-nodejs-paypal
-   * http://engineering.linkedin.com/tags/nodejs- Linkedin
+   * http://engineering.linkedin.com/tags/nodejs
 
 ####Node.JS In production
    * http://www.slideshare.net/BenLin2/webconf-nodejsproductionarchitecture
