@@ -45,7 +45,7 @@ Visit https://raw.github.com/paypal/kraken-js to lookup default value
 
   How to debug in this project
   
- ###Logger
+###Logger
   
   color logger with more information than console.log
   
