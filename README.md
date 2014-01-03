@@ -1,8 +1,12 @@
 #Slideblend Node.js Framework
 look up for pretty format at https://github.com/Ranatchai/slideblend
 
-##Usage Node.js lib
+##Don't Know Node.js?
+  * start here: http://stackoverflow.com/questions/1884724/what-is-node-js    
 
+##Usage Module
+
+###Node.js lib
    * [connect](https://github.com/senchalabs/connect) = http connect framework for node -> plugins aka middleware 
    * [express](http://expressjs.com/)  = connect base framework for build web-app
    * [passport](http://passportjs.org/) = connect middleware for auth
@@ -17,6 +21,10 @@ look up for pretty format at https://github.com/Ranatchai/slideblend
          * staging    : /^stag/i,
          * production : /^prod/i 
    * [recluster](https://github.com/doxout/recluster) = provide node cluster and automatic restart failure worker
+
+###Other
+   * [nginx](http://blog.argteam.com/coding/hardening-node-js-for-production-part-2-using-nginx-to-avoid-node-js-load/) - recommend http server for serve static file instead using node
+
 
 ## Directory structure
 - **/config** - Application and middleware configuration
@@ -76,10 +84,6 @@ see detail at http://www.jetbrains.com/webstorm/webhelp/running-and-debugging-no
 
   __Ref and More Debug Technique:__ http://stackoverflow.com/a/16512303
 
-##Other
-
-   * [nginx](http://blog.argteam.com/coding/hardening-node-js-for-production-part-2-using-nginx-to-avoid-node-js-load/) - recommend http server for serve static file instead using node
-
 ##Install and Use
 
    * __Install__
@@ -99,3 +103,11 @@ see detail at http://www.jetbrains.com/webstorm/webhelp/running-and-debugging-no
         ``` 
         NODE_ENV=PRODUCTION node index 
         ```
+
+##Todos
+
+  * add test doc
+  * add exception handler doc
+  * add mongoose and mongoose dbref plugin doc
+  * add s3 doc
+  * add auth doc
