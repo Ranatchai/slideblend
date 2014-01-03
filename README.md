@@ -1,5 +1,23 @@
-#Slideblend-Node.js
+#Slideblend Node.js Framework
 look up for pretty format at https://github.com/Ranatchai/slideblend
+
+##Usage Node.js lib
+
+   * [connect](https://github.com/senchalabs/connect) = http connect framework for node -> plugins aka middleware 
+   * [express](http://expressjs.com/)  = connect base framework for build web-app
+   * [passport](http://passportjs.org/) = connect middleware for auth
+   * [mongoose](http://mongoosejs.com/) = mongo object mapping
+      * [mongoose dbref](https://github.com/goulash1971/mongoose-dbref) - plugin to enable mongoose use dbref type
+   * [nconf](https://github.com/flatiron/nconf) = provide config file
+   * [kraken](http://krakenjs.com/) = express base framework for writing scalable application
+      * completed security (can closed for dev-env)
+      * using nconf for manage config due to ~ NODE_ENV
+         * development: /^dev/i,
+         * test       : /^test/i,
+         * staging    : /^stag/i,
+         * production : /^prod/i 
+   * [recluster](https://github.com/doxout/recluster) = provide node cluster and automatic restart failure worker
+
 ## Directory structure
 - **/config** - Application and middleware configuration
 - **/controllers** - Controllers
@@ -23,23 +41,6 @@ To retrieve it in your application, you can do so during the [configuration step
 
 ### Default Values
 Visit https://raw.github.com/paypal/kraken-js to lookup default value
-
-##nodejs lib
-
-   * [connect](https://github.com/senchalabs/connect) = http connect framework for node -> plugins aka middleware 
-   * [express](http://expressjs.com/)  = connect base framework for build web-app
-   * [passport](http://passportjs.org/) = connect middleware for auth
-   * [mongoose](http://mongoosejs.com/) = mongo object mapping
-      * [mongoose dbref](https://github.com/goulash1971/mongoose-dbref) - plugin to enable mongoose use dbref type
-   * [nconf](https://github.com/flatiron/nconf) = provide config file
-   * [kraken](http://krakenjs.com/) = express base framework for writing scalable application
-      * completed security (can closed for dev-env)
-      * using nconf for manage config due to ~ NODE_ENV
-         * development: /^dev/i,
-         * test       : /^test/i,
-         * staging    : /^stag/i,
-         * production : /^prod/i 
-   * [recluster](https://github.com/doxout/recluster) = provide node cluster and automatic restart failure worker
 
 ##DEBUG 
 
