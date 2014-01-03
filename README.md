@@ -44,7 +44,7 @@ Configuration is stored in JSON format. Each settings file can be overridden in 
 
 ### Using custom configuration
 If you'd like to add your own configuration to these files, simply include a new key.
-To retrieve it in your application, you can do so during the [configuration step](#application-life-cycle-middleware)
+To retrieve it in your application, you can do so during the configuration step
 
 ### Default Values
 Visit https://raw.github.com/paypal/kraken-js to lookup default value
@@ -112,6 +112,7 @@ http://stackoverflow.com/a/16512303
   * add mongoose and mongoose dbref plugin doc
   * add s3 doc
   * add auth doc
+  * add table of content
   
 ##Reference
 
