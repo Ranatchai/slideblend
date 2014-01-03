@@ -42,6 +42,8 @@ Visit https://raw.github.com/paypal/kraken-js to lookup default value
    * [recluster](https://github.com/doxout/recluster) = provide node cluster and automatic restart failure worker
 
 ##DEBUG 
+
+  How to debug in this project
   
  ###Logger
   
