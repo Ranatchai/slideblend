@@ -112,3 +112,71 @@ http://stackoverflow.com/a/16512303
   * add mongoose and mongoose dbref plugin doc
   * add s3 doc
   * add auth doc
+  
+##Reference
+
+####What Why and When to Use NodeJS
+   * http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js
+   * http://stackoverflow.com/questions/5062614/how-to-decide-when-to-use-nodejs
+   * http://stackoverflow.com/questions/1884724/what-is-node-js    
+   * http://blog.nelhage.com/2012/03/why-node-js-is-cool/
+   * http://stackoverflow.com/questions/5599024/what-so-different-about-node-jss-event-driven-cant-we-do-that-in-asp-nets-ht
+
+####Use Case
+   * https://engineering.groupon.com/2013/node-js/geekon-i-tier/
+   * http://www.twilio.com/blog/2012/09/building-a-real-time-sms-voting-app-part-1-node-js-couchdb.html
+   * http://www.nczonline.net/blog/2013/10/07/node-js-and-the-new-web-front-end/
+   * https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/
+   * http://www.slideshare.net/lennymarkus/node-js-at-paypal
+   * http://www.slideshare.net/billwscott/kicking-up-the-dust-with-node-js
+   * http://www.slideshare.net/billwscott/clash-of-the-titans-releasing-the-kraken-nodejs-paypal
+   * http://engineering.linkedin.com/tags/nodejs- Linkedin
+
+####Node.JS In production
+   * http://www.slideshare.net/BenLin2/webconf-nodejsproductionarchitecture
+   * http://www.slideshare.net/iloire/building-web-apps-with-nodejs-socketio-knockoutjs-and-zombiejs-codemotion-2012
+   * http://www.slideshare.net/RyanRoemer/seanode-prodtalk?from_search=5
+   * http://blog.argteam.com/coding/hardening-node-js-for-production-part-2-using-nginx-to-avoid-node-js-load/
+   * http://www.theorganicagency.com/apache-vs-nginx-performance-comparison/
+   * http://sandinmyjoints.github.io/towards-100-pct-uptime
+
+####Performance + Memory Management
+   * https://hacks.mozilla.org/2012/11/tracking-down-memory-leaks-in-node-js-a-node-js-holiday-season/
+   * http://www.webreference.com/programming/javascript/jkm3/index.html
+   * https://www.scirra.com/blog/76/how-to-write-low-garbage-real-time-javascript
+   * https://github.com/c4milo/node-webkit-agent
+
+####Exception Handler
+   * http://stackoverflow.com/questions/7310521/node-js-best-practice-exception-handling
+   * https://github.com/isaacs/node-supervisor
+   * https://github.com/nodejitsu/forever
+
+####Debug 
+   * http://stackoverflow.com/questions/1911015/how-to-debug-node-js-applications
+
+####Pattern
+   * http://shichuan.github.io/javascript-patterns/
+   * http://stackoverflow.com/questions/5495984/coding-style-guide-for-node-js-apps
+
+####KrakenJS Scalable layer that extends Express by providing structure and convention (By Paypal)
+   * http://krakenjs.com/
+   * https://github.com/paypal/generator-kraken
+   * https://github.com/paypal/kraken-devtools
+   * https://github.com/paypal/express-enrouten
+
+####Other
+   * http://stackoverflow.com/questions/5530784/node-js-server-to-return-static-files-from-public-via-nginx?rq=1
+   * https://github.com/joyent/node/wiki/modules
+   * http://stackoverflow.com/questions/10695629/node-js-express-next
+   * http://stackoverflow.com/questions/5311334/what-is-the-purpose-of-nodejs-module-exports-and-how-do-you-use-it
+   * http://passportjs.org/
+   * http://llun.in.th/cards/2013/6/OAuth2%20server%20with%20node.js.html#/view/th
+   * http://stackoverflow.com/questions/4706020/bdd-and-tdd-for-node-js
+   * http://stackoverflow.com/questions/5009324/node-js-nginx-and-now
+   * https://github.com/flatiron/nconf   
+   * http://mongoosejs.com/
+   * https://github.com/substack/node-password-reset
+   * https://npmjs.org/package/yocrud
+   * http://mmonit.com/monit/
+   * http://rowanmanning.com/posts/node-cluster-and-express/
+   * http://zombie.labnotes.org/
