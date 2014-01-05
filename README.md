@@ -24,30 +24,8 @@
 ###Other
    * [nginx](http://blog.argteam.com/coding/hardening-node-js-for-production-part-2-using-nginx-to-avoid-node-js-load/) - recommend http server for serve static file instead using node
 
-
-## Directory structure
-- **/config** - Application and middleware configuration
-- **/controllers** - Controllers
-- **/lib** - Custom developer libraries and other code
-- **/locales** - Local-based content
-- **/models** - Models
-- **/public** - Web resources that are publicly available
-- **/public/templates** - Server and browser-side templates
-- **/tests** - Unit and functional test cases
-
-## Configuration
-
-Configuration is stored in JSON format. Each settings file can be overridden in development mode by creating a `-development` version, e.g. app-development.json.
-
-- **/config/app.json** - Application specific settings
-- **/config/middleware.json** - Custom middleware specific settings
-
-### Using custom configuration
-If you'd like to add your own configuration to these files, simply include a new key.
-To retrieve it in your application, you can do so during the configuration step
-
-### Default Values
-Visit https://raw.github.com/paypal/kraken-js to lookup default value
+## Directory structure and Configuration
+* https://github.com/paypal/kraken-js for more details
 
 ##Install and Use
 ###Install
@@ -67,9 +45,23 @@ npm install
  2. use supervisor term instead of node ```supervisor index```
 * Run node in Production env by ```NODE_ENV=PRODUCTION node index```
 * Run node in other env where env is [‘development’, ’test’, ’staging’, ‘production’]
-   * ```NODE_ENV={env} node index```
+   * `NODE_ENV={env} node index`
 
-##DEBUG 
+##Test
+* run `grunt test` provide jshint and mocha
+
+###JSHint
+* run separate by `grunt jshint`
+* 'use strict' for every class
+* 2 indent in files
+* see other options at .jshintrc
+
+###Mocha
+* run separate by `grunt mocha-cli`
+* Unit testing framework that provides many features for nodejs
+* run test every in test/*.js
+
+##Debug
 
   How to debug in this project
   
@@ -102,7 +94,7 @@ ref: https://github.com/node-inspector/node-inspector
 ####Debug with Webstrom
 http://www.jetbrains.com/webstorm/webhelp/running-and-debugging-node-js.html
 
-####Ref and More Debug Technique
+####More Debug Technique
 http://stackoverflow.com/a/16512303
 
 ##Todos
