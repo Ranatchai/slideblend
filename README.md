@@ -165,8 +165,11 @@ http://stackoverflow.com/a/16512303
    * https://github.com/paypal/kraken-devtools
    * https://github.com/paypal/express-enrouten
 
-####Other
+####Nginx
+   * http://stackoverflow.com/questions/9967887/node-js-itself-or-nginx-frontend-for-serving-static-files
    * http://stackoverflow.com/questions/5530784/node-js-server-to-return-static-files-from-public-via-nginx?rq=1
+   
+####Other
    * https://github.com/joyent/node/wiki/modules
    * http://stackoverflow.com/questions/10695629/node-js-express-next
    * http://stackoverflow.com/questions/5311334/what-is-the-purpose-of-nodejs-module-exports-and-how-do-you-use-it
